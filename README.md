@@ -11,3 +11,8 @@ Campus Placement Prediction System is a predictive analytics system that leverag
 * Achieves ~88% accuracy using ensemble-based methods.
 * Performs feature engineering: encoding, correlation filtering, and anomaly handling.
 * Visualizes key patterns in placement trends using statistical plots.
+
+## Dataset Description
+Dataset link (https://www.kaggle.com/benroshan/factors-affecting-campus-placement)
+
+### Attributes
