@@ -15,4 +15,31 @@ Campus Placement Prediction System is a predictive analytics system that leverag
 ## Dataset Description
 Dataset link (https://www.kaggle.com/benroshan/factors-affecting-campus-placement)
 
-### Attributes
+Attributes in the dataset:
+
+
+
+
+## Workflow
+1.Data Preprocessing
+* Categorical encoding (gender, specialisation, workex).
+* Null value handling.
+* Outlier detection (optional).
+* Feature selection via correlation heatmaps.
+
+2.Exploratory Data Analysis
+* Distribution analysis of placement by gender, stream, CGPA.
+* Pair plots, box plots, and count plots.
+* Correlation matrix.
+
+3.Model Training & Evaluation
+* Train-test split (typically 80/20).
+* Trained multiple classification models.
+* Evaluated via:
+    * Accuracy Score
+    * Confusion Matrix
+    * Precision, Recall, F1-score
+
+4.Deployment Ready Design
+* Modular notebook structure for easy API or dashboard integration.
+* Prepped for integration with Flask or Streamlit backend.
